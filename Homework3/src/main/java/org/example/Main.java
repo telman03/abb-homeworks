@@ -9,6 +9,8 @@ public class Main {
         schedule[0][1] = "do home work";
         schedule[1][0] = "Monday";
         schedule[1][1] = "go to courses; watch a film";
+        schedule[2][0] = "Tuesday";
+        schedule[2][1] = "go to courses; watch a film";
 
         while (true){
             System.out.println("Enter the day of a week: ");
@@ -21,6 +23,9 @@ public class Main {
                     break;
                 case "monday":
                     System.out.println(schedule[1][1]);
+                    break;
+                case "tuesday":
+                    System.out.println(schedule[2][1]);
                     break;
 
 
@@ -36,6 +41,13 @@ public class Main {
                     Scanner sc3 = new Scanner(System.in);
                     String new_task02 = sc3.nextLine();
                     schedule[1][1] = new_task02;
+                    break;
+
+                case "change tuesday":
+                    System.out.println("Enter new task for Monday: ");
+                    Scanner sc4 = new Scanner(System.in);
+                    String new_task03 = sc4.nextLine();
+                    schedule[2][1] = new_task03;
                     break;
 
                 case "exit":

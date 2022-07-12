@@ -10,7 +10,7 @@ public class Main {
         schedule[1][0] = "Monday";
         schedule[1][1] = "go to courses; watch a film";
         schedule[2][0] = "Tuesday";
-        schedule[2][1] = "go to courses; watch a film";
+        schedule[2][1] = "go to gym";
 
         while (true){
             System.out.println("Enter the day of a week: ");
@@ -44,7 +44,7 @@ public class Main {
                     break;
 
                 case "change tuesday":
-                    System.out.println("Enter new task for Monday: ");
+                    System.out.println("Enter new task for Tuesday: ");
                     Scanner sc4 = new Scanner(System.in);
                     String new_task03 = sc4.nextLine();
                     schedule[2][1] = new_task03;

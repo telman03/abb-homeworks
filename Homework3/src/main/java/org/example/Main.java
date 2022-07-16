@@ -52,13 +52,11 @@ public class Main {
 
                 case "exit":
                     return;
+
                 default:
                     System.out.println("Sorry, I don't understand you, please try again.");
 
-
             }
         }
-
-
     }
 }

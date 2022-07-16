@@ -1,6 +1,6 @@
 package org.example;
 
-public class Pet {
+public class Main {
     String species;
     String nickname;
     int age;
@@ -8,21 +8,19 @@ public class Pet {
     String[] habits = {};
 
     // Constructor Declaration of Class
-    public Pet(String species, String nickname, int age, int trickLevel, String[] habits) {
+    public Main(String species, String nickname, int age, int trickLevel, String[] habits) {
         this.species = species;
         this.nickname = nickname;
         this.age = age;
         this.trickLevel = trickLevel;
     }
 
-    public Pet() {
-
-    }
 
     // gets nickname
     public String getNickname(){
         return nickname;
     }
+
     public String getEat(){
         return "I am eating";
     }
@@ -35,15 +33,10 @@ public class Pet {
 
 
 
+
     public static void main(String[] args) {
-    }
-
-    static class Human {
-        Pet pet=new Pet();
-        String name;
-        String surname;
-        int year;
-        int iq;
 
     }
+
+
 }

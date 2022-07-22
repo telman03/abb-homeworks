@@ -25,3 +25,4 @@ An example of console output:
 
 #### Advanced complexity. Not necessary for the realization:
 - Add an "area shooting" feature, so that the target occupies 3 cells (horizontally or vertically) and the affected compartments are marked with `x`.
+-

@@ -22,6 +22,8 @@ public class Human {
         this.schedule = schedule;
     }
 
+    public Human(String frederico, String karleone, int i, Human mother, Human father, int i1, Pet pet, String[][] strings, Family roxyFamily) {
+    }
 
 
     //overriding toString

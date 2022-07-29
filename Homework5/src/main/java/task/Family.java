@@ -17,6 +17,10 @@ public class Family {
         mother.setFamily(this);
     }
 
+    public Family(Human father, Human mother) {
+
+    }
+
 
     @Override
     public String toString() {

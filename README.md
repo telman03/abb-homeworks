@@ -9,3 +9,4 @@
 
 **5**.  [Homework 5 ](/Homework5)
 
+**6**.  [Homework 6 ](/Homework6)

@@ -1,7 +1,7 @@
 package org.example;
 
 import org.example.Humans.Man;
-import Humans.Woman;
+import org.example.Humans.Woman;
 
 import java.util.Arrays;
 import java.util.Objects;

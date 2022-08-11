@@ -1,5 +1,7 @@
 package org.example;
 
+import org.example.Humans.Woman;
+
 import java.util.Arrays;
 import java.util.Objects;
 
@@ -9,7 +11,7 @@ public class Family {
     private Human[] children;
     private Pet pet;
 
-    public Family(Human mother, Human father) {
+    public Family(Human mother, Woman father) {
         this.mother = mother;
         this.father = father;
         this.children = new Human[0];

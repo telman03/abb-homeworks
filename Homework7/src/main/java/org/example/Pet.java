@@ -126,4 +126,6 @@ public abstract class Pet {
         result = 31 * result + Arrays.hashCode(habits);
         return result;
     }
+
+    public abstract void foul();
 }

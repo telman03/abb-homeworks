@@ -7,6 +7,7 @@ The idea of the project is to describe the structure of a family while taking in
 
 Improve the project: replace all the arrays with collections
 
+
 #### Techniqual requirements
 -  `Pet`, `Human`, `Family` classes must include collections instead of arrays.
 - `habits` of the `Pet` class should be stored in the `Set` interface.

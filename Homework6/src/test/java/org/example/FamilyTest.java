@@ -20,9 +20,9 @@ class FamilyTest {
             new String[][]{{DayOfWeek.MONDAY.name(), "go to gym"}}, michaelsFamily
     );
 
-    void setChild() {
+    Human[] setChild() {
         michaelsFamily.addChild(child1);
-        michaelsFamily.getChildren();
+        return michaelsFamily.getChildren();
     }
 
 
@@ -44,12 +44,41 @@ class FamilyTest {
     }
 
 
-
     @Test
     void testCountOfFamilyMembers() {
         setChild();
         assertEquals(3, michaelsFamily.countFamily());
     }
 
+    @Test
+    void testDeletingChildByIndex() {
+        setChild();
+        michaelsFamily.deleteChild(0);
+        assertEquals(0, this.michaelsFamily.getChildren().length);
+    }
+
+    @Test
+    void deletingChildByFalseIndex() {
+        setChild();
+        michaelsFamily.deleteChild(2);
+        assertEquals(1, this.michaelsFamily.getChildren().length);
+    }
+
+    @Test
+    void deletingChildByReference() {
+        setChild();
+        michaelsFamily.deleteChild(this.child1);
+        assertEquals(0,this.michaelsFamily.getChildren().length);
+    }
+
+    @Test
+    void deletingChildByFalseReference() {
+        setChild();
+        Human child2 = new Human("Sony", "Karleone", 1990, 90,
+                new String[][]{{DayOfWeek.MONDAY.name(), "go to course"}}, michaelsFamily
+        );
+        michaelsFamily.deleteChild(child2);
+        assertEquals(1, this.michaelsFamily.getChildren().length);
+    }
 
 }

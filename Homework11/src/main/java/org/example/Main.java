@@ -25,9 +25,9 @@ public class Main {
 
         Pet dogRock= new Dog("Rock", 3, 45, habits);
 
-        Man fatherJohn = new Man("Vito", "Karleone", "1/12/1973", 88);
+        Man fatherJohn = new Man("Vito", "Karleone", "1/12/1973", 99);
 
-        Woman motherJane = new Woman("Jane", "Karleone", "23/2/1975", 96);
+        Woman motherJane = new Woman("Jane", "Karleone", "23/2/1975", 88);
 
 
         Man father = new Man("Father", "Father","10/12/1983" , 99);
